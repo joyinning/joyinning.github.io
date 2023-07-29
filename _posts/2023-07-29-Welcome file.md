@@ -1,10 +1,4 @@
----
-title: Welcome File
-author: Eunbi Kim
-categories: [Blogging, Test]
-tags: [Test]
-pin: true
----
+
  
  # Welcome to StackEdit!
 
