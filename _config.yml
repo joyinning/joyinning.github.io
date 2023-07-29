@@ -18,12 +18,12 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Eunbi Kim # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Graduate Student of Applied Data Science # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  An aspiring data scientist, currently studying in Applied Data Science at Syracuse University. Interested in Data Enablement and Optimization, leveraging machine learning, statistics, and data processing/analytics/visualization.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://joyinning.github.io"
