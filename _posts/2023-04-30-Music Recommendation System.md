@@ -75,9 +75,9 @@ We will understand what the music recommendation system is, explore all possible
 
 3. **Preliminary Analysis**
 - The music recommendation system based on K-means clustering showed the relevant result.
-  - Association Rule <img width="591" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/c5ed9ac6-105d-4bfb-8f6a-4543abf330d7">
+  - Association Rule <br> <img width="591" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/c5ed9ac6-105d-4bfb-8f6a-4543abf330d7">
 
-  - Clustering <img width="623" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/d89c5ff2-d517-46c0-8652-1d9337da8fcb">
+  - Clustering <br> <img width="623" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/d89c5ff2-d517-46c0-8652-1d9337da8fcb">
 - ***1.  Which model can be applied to create the music recommendation system?***
   - The K-Means clustering model can be applied to build the optimized music recommendation system based on audio features of digital songs.
 - ***2. How do the models recommend songs to users?***
