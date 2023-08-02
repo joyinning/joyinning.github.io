@@ -6,6 +6,9 @@ tags: [Data Analysis, Data Mining, Data Visualization, pandas, numpy, matplotlib
 
 ---
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joyinning/Data-Analysis_Top-Songs-in-Music-Streaming-Companies/blob/main/Data%20Analysis%3A%20Top%20100%20songs%20in%20Music%20Streaming%20Companies.ipynb)
+<br>
+
 ### Objectives
 The goal of the mini-project is to analyze the popularity and audio features of songs selected by giant companies in the music-streaming (or reviewing) industry, including  **_Spotify_**,  **_Rolling Stone_**,  **_Billboard_**, and  **_Red Music Company_**.
 
