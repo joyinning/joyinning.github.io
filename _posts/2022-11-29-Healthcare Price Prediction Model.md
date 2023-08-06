@@ -6,6 +6,8 @@ tags: [Machine Learning, Healthcare, Decision Tree, SVM, Linear Regression, R]
 pin: true
 ---
 
+[![Open in Github Page](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://github.com/joyinning/r_healthcare_price_prediction/blob/main/Healthcare_price_prediction_112022.md)
+
 ## Objectives
 The goal is to build a prediction model on whether or not a healthcare cost of a customer will be expensive.
 - To deliver the results with shiny apps website.
