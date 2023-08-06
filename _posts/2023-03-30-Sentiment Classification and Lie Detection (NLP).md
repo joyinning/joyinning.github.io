@@ -1,7 +1,7 @@
 ---
 title: Sentiment Classification and Lie Detection (NLP)
 date: 2023-03-30
-categories: [Blogs, Machine Learning 
+categories: [Blogs, Machine Learning]
 tags: [Machine Learning, NLP, Sentiment Classification, Lie Detection, Multinomial Naive Bayes, SVM, Decision Tree, Random Forest, Gain Ratio, Feature Selection, R]
 ---
 
