@@ -1,5 +1,5 @@
 ---
-title: Healthcare Price Prediction Model
+title: Sentiment Classification and Lie Detection (NLP)
 date: 2023-03-30
 categories: [Blogs, Machine Learning 
 tags: [Machine Learning, NLP, Sentiment Classification, Lie Detection, Multinomial Naive Bayes, SVM, Decision Tree, Random Forest, Gain Ratio, Feature Selection, R]
@@ -40,7 +40,7 @@ There are many machine learning solutions to detect if a person is lying or not.
 	- Lie Detection: Decision Tree, Random Forest
 
 ### 4. **Evaluating the Models**
-- This part is comparing the results of each algorithm and think about the next  step for improvements of those models. 
+- This part is comparing the results of each algorithm and think about the next  step for improvements of those models. <br>
    <img width="578" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/4160a827-1665-402e-8b00-315102d808bc">
    <img width="633" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/4caca2f5-cb2d-46d5-8b08-b3a5c55ff8cb">
   - According to the above results, sentiment classifications using Multinomial NB and TD-IDF (C-2) and SVM with count vectorization (D-1) models have the best accuracy score, about 0.969. We would interpret that the models predict the values correctly.
