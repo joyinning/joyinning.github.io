@@ -5,6 +5,9 @@ categories: [Blogs, Machine Learning
 tags: [Machine Learning, NLP, Sentiment Classification, Lie Detection, Multinomial Naive Bayes, SVM, Decision Tree, Random Forest, Gain Ratio, Feature Selection, R]
 ---
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joyinning/python_lie_detection/blob/main/sentiment_classification_vs_lie_detection_with_results__nlp.ipynb#scrollTo=1fJkjUGquWl4)
+<br>
+
 ## Background and Goal
 There are many machine learning solutions to detect if a person is lying or not. The goal of this mini project is too build sentiment classification and lie detection using the reviews of hotels in the United States. The detailed objectives are as follows.
 - To select the best features to build the models using gain ratio scores. 
