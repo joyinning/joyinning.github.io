@@ -3,7 +3,7 @@ title: Healthcare Price Prediction Model
 date: 2022-11-29
 categories: [Projects, Machine Learning] 
 tags: [Machine Learning, Healthcare, Decision Tree, SVM, Linear Regression, R]
-
+pin: true
 ---
 
 ## Objectives
@@ -20,7 +20,7 @@ The goal is to build a prediction model on whether or not a healthcare cost of a
 	- Categorical to Logical: education level, the number of children
 - **Setting the boundary for expensive or not expensive** 
 	- Considering that 80% of people spent less than or equal to $5,789.4, set the boundary for expensive or not to be **$6,000**. 
-		- People who were charged more than **$6,000** will be labeled as ***expensive***, while people who paid less will be labeled as ***not expensive***. <br> <img width="200" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/75e15b25-e71a-4eb8-b7e0-4a14b4ded515">
+		- People who were charged more than **$6,000** will be labeled as ***expensive***, while people who paid less will be labeled as ***not expensive***. <br> <img width="200" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/75e15b25-e71a-4eb8-b7e0-4a14b4ded515"> <br>
 ### 2. **Exploratory Data Analysis with Visualization**
     
 - **Bar Charts**: demonstrated that the percentages of customers paying more than $6,000 can vary among different groups. <br>
@@ -41,7 +41,7 @@ The goal is to build a prediction model on whether or not a healthcare cost of a
 	- ***married***: yes
 	- ***have_child***: yes
 - **Mapping**: showed the distribution based on geographical information. <br> <img width="400" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/016fd95c-ff52-4691-a062-cd2f543991e1"> <br>
-	- People who live on ***New York state*** have higher chances of paying more than $6,000 on their healthcare.
+	- People who live on ***New York state*** have higher chances of paying more than $6,000 on their healthcare. <br>
 ### 3. **Data Modeling** 
 The prediction model simulation in Shiny Apps [Link](https://haotianshen.shinyapps.io/FinalProj/?_ga=2.151311673.1694501232.1670083961-1568296780.1670083961)
 - **Modeling**: Applied the supervised and unsupervised algorithms and compared the results to find the best prediction model using accuracy and sensitivity rates. The algorithms and results are in the below table. <img width="948" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/37992dcd-212a-440c-9e71-a99a1df325aa">
