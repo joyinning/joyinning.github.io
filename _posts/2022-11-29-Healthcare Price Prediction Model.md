@@ -21,6 +21,8 @@ The goal is to build a prediction model on whether or not a healthcare cost of a
 - **Setting the boundary for expensive or not expensive** 
 	- Considering that 80% of people spent less than or equal to $5,789.4, we set the boundary for expensive or not to be **$6,000**. 
 		- People who were charged more than **$6,000** will be labeled as ***expensive***, while people who paid less will be labeled as ***not expensive***. <br> <img width="200" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/75e15b25-e71a-4eb8-b7e0-4a14b4ded515">
+
+  
 ### 2. **Exploratory Data Analysis with Visualization**
     
 - **Bar Charts** demonstrated that the percentages of customers paying more than $6,000 can vary among different groups. <br>
