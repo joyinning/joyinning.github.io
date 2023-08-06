@@ -13,21 +13,21 @@ The goal is to build a prediction model on whether or not a healthcare cost of a
 
 ## Process and Results
 ### 1. **Data Cleaning**
-- **Dealing with missing data points**: Removed 158 missing data points in ***bmi*** and ***hypertension*** variables. 
-- **Inspecting the data set**: 7,502 examples with 14 features related to personal health information (cost, age, bmi, number of children, and etc.). 
+- **Dealing with missing data points**: we removed 158 missing data points in ***bmi*** and ***hypertension*** variables. 
+- **Inspecting the data set**: There are 7,502 examples with 14 features related to personal health information (cost, age, bmi, number of children, and etc.). 
 - **Performing binning and transformation on variables**
 	- Numeric to Categorical: age, bmi
 	- Categorical to Logical: education level, the number of children
 - **Setting the boundary for expensive or not expensive** 
-	- Considering that 80% of people spent less than or equal to $5,789.4, set the boundary for expensive or not to be **$6,000**. 
-		- People who were charged more than **$6,000** will be labeled as ***expensive***, while people who paid less will be labeled as ***not expensive***. <br> <img width="200" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/75e15b25-e71a-4eb8-b7e0-4a14b4ded515"> <br>
+	- Considering that 80% of people spent less than or equal to $5,789.4, we set the boundary for expensive or not to be **$6,000**. 
+		- People who were charged more than **$6,000** will be labeled as ***expensive***, while people who paid less will be labeled as ***not expensive***. <br> <img width="200" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/75e15b25-e71a-4eb8-b7e0-4a14b4ded515">
 ### 2. **Exploratory Data Analysis with Visualization**
     
-- **Bar Charts**: demonstrated that the percentages of customers paying more than $6,000 can vary among different groups. <br>
+- **Bar Charts** demonstrated that the percentages of customers paying more than $6,000 can vary among different groups. <br>
 <br> <img width="200" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/c3c7c9ff-35e5-46f6-875d-c77ded73d755"> <br>
   ***have_child***, ***is_educated***, ***location_type***, ***yearly_physical***, ***married*** don't have a significant difference. 
 
-- **Histograms and box plots**: displayed the distribution of customers who pay more or less than $6,000 by each variable and visualized the statistical summary. <br>
+- **Histograms and box plots** displayed the distribution of customers who pay more or less than $6,000 by each variable and visualized the statistical summary. <br>
 <img width="200" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/99b1ffe6-6b20-4e37-b59f-734187faf0a1"> <img width="200" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/6e7b1c7d-e64f-4f4d-93ce-1258bdd7a0cb"> <img width="200" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/160ab0cc-04a2-4237-9be7-142f16c858fb">
 <br> People who has the following health condition (or personal information) usually paid for their healthcare highly. 
 	- ***Age***: 50-59
@@ -40,14 +40,15 @@ The goal is to build a prediction model on whether or not a healthcare cost of a
 	- ***is_educated***: yes
 	- ***married***: yes
 	- ***have_child***: yes
-- **Mapping**: showed the distribution based on geographical information. <br> <img width="400" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/016fd95c-ff52-4691-a062-cd2f543991e1"> <br>
-	- People who live on ***New York state*** have higher chances of paying more than $6,000 on their healthcare. <br>
+- **Mapping** showed the distribution based on geographical information. <br> <img width="400" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/016fd95c-ff52-4691-a062-cd2f543991e1"> <br>
+	- People who live on ***New York state*** have higher chances of paying more than $6,000 on their healthcare.
+
 ### 3. **Data Modeling** 
 The prediction model simulation in Shiny Apps [Link](https://haotianshen.shinyapps.io/FinalProj/?_ga=2.151311673.1694501232.1670083961-1568296780.1670083961)
 - **Modeling**: Applied the supervised and unsupervised algorithms and compared the results to find the best prediction model using accuracy and sensitivity rates. The algorithms and results are in the below table. <img width="948" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/37992dcd-212a-440c-9e71-a99a1df325aa">
 
 	1. **Linear Regression**
-    - Used numeric predictors (age, bmi, and the number of children)
+    - We used numeric predictors (age, bmi, and the number of children)
     - Although all of the predictors are significant, the model only explain 15,69% of the data set, which is quite low.
     - The sensitivity is 0.8705, which means the model predicted 87% of the expensive healthcare prices in the dataset.
     - The accuracy rate is 77%, which is less than the 'No Information' rate (80.29%)
@@ -59,7 +60,7 @@ The prediction model simulation in Shiny Apps [Link](https://haotianshen.shinyap
 	2. **Decision Tree**
 		1.  Building Decision Tree Model using all features except hypertension
 			- The sensitivity is 0.9714, which has been significantly improved compared with linear model. The accuracy rate is also higher than no information rate (90.84%).
-			- Considering that we put all features in the model, tried to simplify the model by turning numeric variables into categorical variables. <br>
+			- Considering that we put all features in the model, we tried to simplify the model by turning numeric variables into categorical variables. <br>
    <img width="300" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/0b5f5186-7017-477a-bf24-1102c6b872f9"> <br>
 
 		2. Building Decision Tree Model using all features that are converted to categorical.
