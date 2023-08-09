@@ -81,7 +81,7 @@ The prediction model simulation in Shiny Apps [Link](https://haotianshen.shinyap
   		- Sensitivity and accuracy rate are less than those in the Decision Tree Model.
 - **Further Exploration with unsupervised machine learning**: Used unsupervised learning models (Associate Mining and K-Means clustering) to get more insights on cost and features. 
    1. **Associate Mining**: checking the importance of each variable to find the best predictors for the prediction model.
-    - The following table shows the top 5 rules (sorted by support) in the Associate Mining model. <img width="941" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/bea039df-0951-4585-b899-d7dcc31a881f">
+    - The following table shows the top 5 rules (sorted by support) in the Associate Mining model. <img width="899" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/12116cf5-8a87-4132-a0c6-c5e27a939ffa">
     - The most supported association here indicated that expensiveness relates to ***bmi*** and ***smoker***.
 
    2. **K-Means Clustering**: According to associate mining and the bar graph, ***bmi*** might be a most signficiant predictor of cost. Therefore, create clusters using ***bmi*** and ***cost*** and adjust the cost boundary on whether the healthcare price is expensive or not, if needed.
