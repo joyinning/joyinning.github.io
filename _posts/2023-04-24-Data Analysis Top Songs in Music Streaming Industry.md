@@ -44,15 +44,14 @@ All the information is in the Spotify Web API, even though these songs are selec
         - Spotify’s best songs have a longer duration than others.
         - Red Music may consider liveness, valence, and tempo as they select the best songs. 
 
-	-  **Are the selected music really popular in public?** <img width="400" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/70040175-8eda-4548-98f5-fc4b048aca5f">
-        <br>
-		    - The songs selected by **Billboard** are the most popular songs in public.
-            - The average scores of popularity of each playlist are as follows. The songs selected by **Billboard** are the most popular in public. 
-                -  Billboard:  85.08
-                -  Rolling Stone:  65.52
-                -  Spotify:  63.07
-                -  Red Music:  73.83
-         - **Rolling Stone** selected the songs in various range of popularity. 
+	-  **Are the selected music really popular in public?** <img width="400" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/70040175-8eda-4548-98f5-fc4b048aca5f"> <br>
+     1. The songs selected by **Billboard** are the most popular songs in public.
+     2. **Rolling Stone** selected the songs in various range of popularity. <br>
+       > The average scores of popularity of each playlist are as follows. <br>
+         - Billboard:  85.08 <br>
+         - Rolling Stone:  65.52 <br>
+         - Spotify:  63.07 <br>
+         - Red Music:  73.83 <br>
 	- **What are the relationships among the popularity and audio features?**
     
       1. ***Billboard*** <img width="633" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/a4f9434d-c3cf-463d-95f1-cffadb8b31aa">
