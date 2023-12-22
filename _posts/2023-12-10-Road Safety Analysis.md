@@ -1,3 +1,13 @@
+---
+title: Road Safety Analysis
+date: 2023-12-15
+categories: [Projects, Machine Learning] 
+tags: [Machine Learning, PySpark, Decision Tree, SVM, Linear Regression, Random Forest, KMeans, Anomaly Detection, Classification, Clustering]
+pin: true
+---
+
+[![Open in Github Page](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://github.com/joyinning/Motor-Crashes-Safety-Analysis/blob/main/Road_Safety_Analysis.ipynb)
+
 # Road Safety Analysis
 ## PART 1 Project Overview & Environment Setting
 ### **Project Overview**
@@ -78,10 +88,20 @@ Create classification models for the target variables (hour_category and event d
 Build the best KMeans model to create clusters and define specific patterns in the given accidents. 
 1. **Process**
 - ***Assumptions***: Build the draft KMeans model based on the two assumptions (Selecting features in categories or correlations), then select the best model by comparing visualizations and scores
-- ***Modeling Process***
+- ***Modeling Process***: Two potential approaches were considered for constructing the model in response to the question: “Choosing features based on variable categories or correlations might serve as a viable criterion for creating clusters.” (In this scenario, the 'Event Descriptor' variable was divided into two parts: 'Event_descriptor_Type' and 'Event_descriptor'. For the analysis, only 'Event_descriptor_Type' was utilized.)
 ![image](https://github.com/joyinning/joyinning.github.io/assets/123600666/14e348b4-2f29-4d63-a1ce-13779425a238)
 2. **Modeling**
-  - Assumption 1: Through categories number 1~5, we recognised that the Means model with factors in the accident information category slightly createds better clusters in terms of event descriptor.
+- ***Assumption 1***: Through categories number 1~5, we recognised that the Means model with factors in the accident information category slightly createds better clusters in terms of event descriptor.
     ![image](https://github.com/joyinning/joyinning.github.io/assets/123600666/517b1fbb-1ce3-49ff-a8b3-76580af203db)
-  - Assumption 2: Based on the correlations of each feature, we will select only Number of Vehicles Involved and Collision Type Descriptor as features of the KMean model, which have the highest correlation values.
+- ***Assumption 2***: Based on the correlations of each feature, we will select only Number of Vehicles Involved and Collision Type Descriptor as features of the KMean model, which have the highest correlation values.
     <img width="1246" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/a96ae631-3496-43fe-9c25-234f035c41a0">
+3. **Application & Evaluation**
+- ***Improvement***: The methodology involved building KMeans algorithms for each assumption, comparing their performances and results, improving by applying for PCA technique, and evaluating with PCA visualization, sum of squared errors, and silhouette scores to identify the optimal model. 
+- ***Final Model***: By comparing visualization outcomes (Sum of Squared Errors, Silhouette), the KMeans models from Assumption 1 exhibited distinct, well-defined clusters. Considering both visualization and scores, the optimized KMeans model of Assumption 2 – Trial 2 (Corr_Trial 1) demonstrated the most significant enhancement compared to the default model. Consequently, the KMeans model from assumption 2 - trial 2 (utilizing Number of Vehicles Involved and Collision Type Descriptor as features) was chosen to identify specific patterns within each cluster.<img width="1246" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/b2f7830f-61ad-4005-a852-86ccc6ac7ca1
+- ***Application***: These clusters primarily represent various collision scenarios involving multiple vehicles, such as overtaking, rear-end collisions, and right-angle impacts, each occurring with varying frequencies and police report filings, primarily resulting in property damage. Moreover, in terms of environmental conditions, a majority of these incidents transpire during daylight hours on straight and level roads, typically featuring dry road surfaces.
+<img width="1249" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/fb71c6bc-ffdf-4ec8-9903-04cc2d647f1e">
+
+### **3. Anomaly Detection**
+1. **Process & Modeling**: Employing the KMeans algorithm on accident data, an advanced anomaly detection model was developed to address the above question.
+The anomaly detection model was constructed through several stages: Preprocessing, involving StringIndexer, One-hot Encoding, StandardScaler, and PCA; Modeling, which utilized KMeans and a UDF for distance calculation with the squared_distance function from the pyspark.ml.linalg.Vectors module; and Application, focusing on establishing a threshold and identifying anomalies.
+2. **Conclusion & Application**: In conclusion, the anomaly detection process determined the optimal threshold value of 0.413 for detecting anomalies within accident data points. Within the final KMeans model, 350 anomalies were discovered within clusters, showcasing patterns involving accidents with two cars and an undefined collision type descriptor. <img width="1249" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/be942103-8c27-4fdc-ac6d-956b1522b8b8">
