@@ -98,10 +98,8 @@ Build the best KMeans model to create clusters and define specific patterns in t
 3. **Application & Evaluation**
 - ***Improvement***: The methodology involved building KMeans algorithms for each assumption, comparing their performances and results, improving by applying for PCA technique, and evaluating with PCA visualization, sum of squared errors, and silhouette scores to identify the optimal model. 
 - ***Final Model***: By comparing visualization outcomes (Sum of Squared Errors, Silhouette), the KMeans models from Assumption 1 exhibited distinct, well-defined clusters. Considering both visualization and scores, the optimized KMeans model of Assumption 2 – Trial 2 (Corr_Trial 1) demonstrated the most significant enhancement compared to the default model. Consequently, the KMeans model from assumption 2 - trial 2 (utilizing Number of Vehicles Involved and Collision Type Descriptor as features) was chosen to identify specific patterns within each cluster. ![image](https://github.com/joyinning/joyinning.github.io/assets/123600666/80516d95-843a-4cf7-becf-1cff6390f4e0)
-
 - ***Application***: These clusters primarily represent various collision scenarios involving multiple vehicles, such as overtaking, rear-end collisions, and right-angle impacts, each occurring with varying frequencies and police report filings, primarily resulting in property damage. Moreover, in terms of environmental conditions, a majority of these incidents transpire during daylight hours on straight and level roads, typically featuring dry road surfaces.
-<img width="1249" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/9f357970-c6c1-46ea-9dfa-6dd5a70bd036">
-
+<img width="1249" alt="Screenshot 2023-12-22 at 8 41 27 PM" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/08dbc17f-3133-4095-a493-4d84300dde93">
 
 ### **3. Anomaly Detection**
 1. **Process & Modeling**: Employing the KMeans algorithm on accident data, an advanced anomaly detection model was developed to address the above question.
