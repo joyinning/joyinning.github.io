@@ -36,6 +36,7 @@ Before the research, this step is for setting up the environment for analysis an
 
 ## PART 2 Exploratory Data Analysis
 Explore and analyze the given dataset through the following methods to select the best features for better performance of machine learning models. We will conduct the following strategies.
+
 ### **Data Structure**
 - The dataset is collected from the case information of motor crash from New York State Open Data Portal and NOAA (National Oceanic and Atmospheric Administration) Climate Data Online Tool. This dataset contains **23,638 observations with 31 variables**.
 - We divided the variables except event_descriptor (target) into 5 categories as follows.
