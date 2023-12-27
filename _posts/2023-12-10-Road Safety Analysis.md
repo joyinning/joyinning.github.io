@@ -40,6 +40,7 @@ Explore and analyze the given dataset through the following methods to select th
 - The dataset is collected from the case information of motor crash from New York State Open Data Portal and NOAA (National Oceanic and Atmospheric Administration) Climate Data Online Tool. This dataset contains **23,638 observations with 31 variables**.
 - We divided the variables except event_descriptor (target) into 5 categories as follows.
 ![image](https://github.com/joyinning/joyinning.github.io/assets/123600666/a34a5330-529d-494c-8fbe-34d4ccd7a0e4)
+
 ### **Data Analysis & Correlations**
 1. ***Date and Time Information***
 - Mostly there are accidents at 16:00 on Friday or in the first quarter (Jan ~ Mar).
