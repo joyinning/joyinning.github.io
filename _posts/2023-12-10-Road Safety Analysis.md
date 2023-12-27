@@ -42,7 +42,7 @@ Explore and analyze the given dataset through the following methods to select th
 ![image](https://github.com/joyinning/joyinning.github.io/assets/123600666/a34a5330-529d-494c-8fbe-34d4ccd7a0e4)
 ### **Data Analysis & Correlations**
 1. ***Date and Time Information***
-- Mostly there are accidents at 16:00 on Friday or in the spring season (Jan ~ Mar).
+- Mostly there are accidents at 16:00 on Friday or in the first quarter (Jan ~ Mar).
 - It doesn’t have a significant relationship with other factors.
   ![image](https://github.com/joyinning/joyinning.github.io/assets/123600666/b0a52a93-0dde-426c-9d51-96eb243ba189) ![image](https://github.com/joyinning/joyinning.github.io/assets/123600666/0d7a2118-3382-4fc6-821f-ded079365fa4)
 2. ***Accident Information***
