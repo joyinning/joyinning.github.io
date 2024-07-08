@@ -10,6 +10,10 @@ pin: true
 
 
 # Information Extraction Chatbot
+
+## Chatbot
+https://huggingface.co/spaces/joyinning/chatbot-info-extraction
+
 ## Project Overview
 This project aims to develop a sophisticated chatbot capable of extracting key information from text and answering questions in a 5W1H format. The project involves training and evaluating natural language processing (NLP) models and deploying them through a user-friendly Streamlit web interface.
 
