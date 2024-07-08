@@ -5,7 +5,8 @@ categories: [Blogs, NLP/DL]
 tags: [Deep Learning, BERT, BiLSTM, Chatbot, GPT 3.5]
 ---
 
-[![Open in Github Page](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)]([https://github.com/joyinning/r_healthcare_price_prediction/blob/main/Healthcare_price_prediction_112022.md](https://github.com/joyinning/chatbot-extract-info/blob/main/Information_Extraction_Chatbot.ipynb))
+[![Open in Github Page](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://github.com/joyinning/chatbot-extract-info/blob/main/Information_Extraction_Chatbot.ipynb)
+
 
 # Information Extraction Chatbot
 ## Project Overview
