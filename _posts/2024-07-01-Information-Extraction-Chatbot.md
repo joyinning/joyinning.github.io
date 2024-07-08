@@ -125,9 +125,10 @@ This project aims to develop a sophisticated chatbot capable of extracting key i
 **Key Results**:
 The 5W1H question-answering system successfully responded to questions on various sentences, demonstrating the ability to:
 1. **Extract 4W Information**: Accurately identified "Who," "What," "When," and "Where" information from sentences using NER. <br>
-   ![image](https://github.com/joyinning/joyinning.github.io/assets/123600666/6d405e5b-4a65-4ec3-8c40-184d0cf6a230)
 2. **Answer 4W Questions**: Provided precise answers to direct questions about the extracted entities using a dedicated question-answering model.
 3. **Generate and Answer 1W1H Questions**: Formulated relevant "Why" and "How" questions based on context and generated insightful answers using GPT-3.5.
+   <img width="926" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/c4427f10-e947-4833-9fa0-890589608b50">
+
    
 ## Conclusion
 This project successfully developed an information extraction chatbot capable of accurately identifying named entities and answering complex questions about them. By combining BERT, BiLSTM, and GPT-3.5, the chatbot achieved high accuracy in NER and generated insightful answers to 5W1H questions. The project followed a structured data science cycle, showcasing the power of NLP for extracting valuable insights from text data. The chatbot's successful deployment on Streamlit demonstrates its potential for real-world applications.
