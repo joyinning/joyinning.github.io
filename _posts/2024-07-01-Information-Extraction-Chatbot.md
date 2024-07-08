@@ -3,6 +3,7 @@ title: Information Extraction Chatbot
 date: 2024-07-01
 categories: [Blogs, NLP/DL]
 tags: [Deep Learning, BERT, BiLSTM, Chatbot, GPT 3.5]
+pin: true
 ---
 
 [![Open in Github Page](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://github.com/joyinning/chatbot-info-extraction/blob/main/Information_Extraction_Chatbot.ipynb)
