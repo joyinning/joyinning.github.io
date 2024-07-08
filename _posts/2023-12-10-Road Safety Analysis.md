@@ -3,7 +3,6 @@ title: Road Safety Analysis
 date: 2023-12-15
 categories: [Projects, Machine Learning] 
 tags: [Machine Learning, PySpark, Decision Tree, SVM, Linear Regression, Random Forest, KMeans, Anomaly Detection, Classification, Clustering]
-pin: true
 ---
 
 [![Open in Github Page](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://github.com/joyinning/Motor-Crashes-Safety-Analysis/blob/main/Road_Safety_Analysis.ipynb)
