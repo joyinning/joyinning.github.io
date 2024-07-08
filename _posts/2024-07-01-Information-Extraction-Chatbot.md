@@ -12,6 +12,7 @@ pin: true
 # Information Extraction Chatbot
 
 ## Chatbot
+<img width="1666" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/dc72449b-2ea3-475a-b08c-3359ac490f8e">
 https://huggingface.co/spaces/joyinning/chatbot-info-extraction
 
 ## Project Overview
