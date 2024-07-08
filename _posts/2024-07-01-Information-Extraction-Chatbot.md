@@ -54,9 +54,11 @@ This project aims to develop a sophisticated chatbot capable of extracting key i
 2. Observed a steady decrease in training loss from 0.1039 to 0.0588, indicating effective learning.
 3. Validation loss also decreased from 0.0937 to 0.0889, demonstrating the model's ability to generalize to unseen data.
 4. Achieved a final accuracy of 97.28%, showcasing the model's strong performance in identifying named entities. (Precision: 0.8326, Recall: 0.8446, F1-score: 0.8386) <br>
-   <img width="528" alt="image" src="https://github.com/joyinning/chatbot-extract-info/assets/123600666/36860b1c-e6eb-455a-bf3a-94c3bb115b07">
+   <img width="569" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/6cc852d4-efc5-4c39-9c1b-9340dbeeff90">
+
 6. This output demonstrates the model's ability to correctly identify and label the named entities "Elon Musk" (person) and "SpaceX" (organization), as well as the time entity "2002."
-  <img width="1035" alt="image" src="https://github.com/joyinning/chatbot-extract-info/assets/123600666/d58b8c58-207a-404a-b700-f3807310aab2">
+   <img width="903" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/2606a8f3-4b53-4a98-8682-cbf179ab0634">
+
    
 ## Phase 3: BiLSTM Model with BERT Embeddings (Enhanced NER)
 **Objective**: Combine a bidirectional LSTM (BiLSTM) model with BERT embeddings to further improve NER performance. <br>
@@ -118,9 +120,9 @@ This project aims to develop a sophisticated chatbot capable of extracting key i
 **Process**:
 
 1. **File Structure**: Organize code into app.py, model_utils.py, requirements.txt, and models/ directory.
-2. **Streamlit Interface**: Create an intuitive interface for users to input text and receive extracted information.
-3. **Deployment**: Deploy the application to Streamlit Cloud or other platforms like Heroku or AWS.
-4. **Tools**: Streamlit
+2. **Gradio Interface**: Utilize Gradio's intuitive interface elements to create a user-friendly input area for text and a clearly visible button to trigger information extraction.
+3. **Deployment**: Create a new Space on Hugging Face, upload the files, and Configure the Space settings to use Gradio as the SDK and select the appropriate hardware.
+4. **Testing and Sharing**: Thoroughly test the deployed chatbot on Hugging Face Spaces to ensure it functions correctly.
 
 **Key Results**:
 The 5W1H question-answering system successfully responded to questions on various sentences, demonstrating the ability to:
