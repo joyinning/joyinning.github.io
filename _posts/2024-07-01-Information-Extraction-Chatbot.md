@@ -139,5 +139,5 @@ The 5W1H question-answering system successfully responded to questions on variou
 
    
 ## Conclusion
-This project successfully developed an information extraction chatbot capable of accurately identifying named entities and answering complex questions about them. By combining BERT, BiLSTM, and GPT-3.5, the chatbot achieved high accuracy in NER and generated insightful answers to 5W1H questions. The project followed a structured data science cycle, showcasing the power of NLP for extracting valuable insights from text data. The chatbot's successful deployment on Streamlit demonstrates its potential for real-world applications.
+This project successfully developed an information extraction chatbot capable of accurately identifying named entities and answering complex questions about them. By combining BERT, BiLSTM, and GPT-3.5, the chatbot achieved high accuracy in NER and generated insightful answers to 5W1H questions. The project followed a structured data science cycle, showcasing the power of NLP for extracting valuable insights from text data. The chatbot's successful deployment on Gradio and Hugging Face Space demonstrates its potential for real-world applications.
 
