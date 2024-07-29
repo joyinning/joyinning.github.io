@@ -5,6 +5,7 @@ categories: [Blogs, SWE]
 tags: [Full-stack Development, Data Product Management, Leadership]
 pin: true
 ---
+![image](https://github.com/user-attachments/assets/c16f2df4-0274-4af2-82e5-9ca61ca72d29)
 
 
 # Perfume Recommendation Algorithm & Online Shopping Mall
@@ -20,18 +21,17 @@ As a final project, selected 'perfume' as a business item and createed an online
 4. `JavaScript, HTML5/CSS3` (Design a layout of a website and create internal functions)
 
 ## Functions
-a) Create an account 
-b) Conduct a perfume preference survey
-c) Recommend the best product based on the survey results
-d) Recommend the related product based on the tags of each item that a user chooses 
-e) Write a review (5-starts with contents) 
-f) Provide an online chat service
-g) Show product lists by categories with a filtering function
-h) Process an order directly or put items on the shopping cart    
-i) Provide MyPage to check personal information and orders
+a) Create an account <br>
+b) Conduct a perfume preference survey  <br>
+c) Recommend the best product based on the survey results <br>
+d) Recommend the related product based on the tags of each item that a user chooses  <br>
+e) Write a review (5-starts with contents)  <br>
+f) Provide an online chat service <br>
+g) Show product lists by categories with a filtering function <br>
+h) Process an order directly or put items on the shopping cart     <br>
+i) Provide MyPage to check personal information and orders <br>
 
 ## My Tasks
-
 
 **Developer & Technical Lead**
 1. `R`: Collected basic information and review contents from the website of a Korean beauty review platform and selected 3 keywords that have a high frequency by extracting and representing keyword frequency analysis with text mining and wordclould functions.
@@ -42,4 +42,8 @@ i) Provide MyPage to check personal information and orders
 **People Management**
 1. Conducted a daily meeting to check the status of each part of this project
 2. Managed related documents (SQL and Data Table documentation, Sequence Diagram, Use Case Diagram, Functional Requirement Specifications, and an Entity Relations Diagram, etc)
-3. Interviewed teammates to distribute works based on their preferences and strengths
+   - <img width="719" alt="image" src="https://github.com/user-attachments/assets/2f34df8b-c1fa-4adf-98e2-18c0c70582d3">
+   - <img width="610" alt="image" src="https://github.com/user-attachments/assets/75897183-cd4b-42e5-9f1b-4a8e2fb3676e">
+
+
+4. Interviewed teammates to distribute works based on their preferences and strengths
