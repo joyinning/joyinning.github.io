@@ -39,7 +39,7 @@ i) Provide MyPage to check personal information and orders <br>
 3. `Java`, `Spring Framework` (Back-End): Built a network server, connected a database with JDBC, and developed some functions on a preference survey, a shopping cart, and an order management system. 
 4. `HTML5`, `CSS3`, `JavaScript` (Front-End): Created a preference survey webpage and designed a main page.
 
-**People Management**
+**People and Project Management**
 1. Conducted a daily meeting to check the status of each part of this project
 2. Managed related documents (SQL and Data Table documentation, Sequence Diagram, Use Case Diagram, Functional Requirement Specifications, and an Entity Relations Diagram, etc)
    - <img width="719" alt="image" src="https://github.com/user-attachments/assets/2f34df8b-c1fa-4adf-98e2-18c0c70582d3">
